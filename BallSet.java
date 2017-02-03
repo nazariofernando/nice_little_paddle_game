@@ -28,7 +28,7 @@ public class BallSet{
 	public void addBall() {
 	  // Adds a new ball to the set. If there are already 10
 	  // balls in the set, then the method does nothing.
-		if(this.num <= 10){
+		if(this.num < 10){
 
 			this.num++;
 			Ball[] tempBalls = new Ball[this.num];

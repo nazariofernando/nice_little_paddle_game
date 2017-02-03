@@ -23,7 +23,7 @@ public class Ball {
 	public void move() {
 	  // Change the y-coordinate of the ball, according to its speed.
 		this.y -= this.speed;
-		if((this.y+this.radius)>=1.0){
+		if((this.y + this.radius)>=1.0){
 			changeDirection();
 		}
 	}

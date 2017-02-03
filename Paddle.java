@@ -28,7 +28,7 @@ public class Paddle {
 	public void draw() {
 	  // Draw the paddle at its current position.
 		StdDraw.setPenColor(StdDraw.ORANGE);
-		StdDraw.filledRectangle(this.x, this.y, this.width/2.0, this.height/2);
+		StdDraw.filledRectangle(this.x, this.y, this.width/2, this.height/2);
 	}
 	public double leftEdge() {
 	  // Return the x-coordinate of the left edge of the paddle.
